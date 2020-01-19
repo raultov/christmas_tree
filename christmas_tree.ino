@@ -68,7 +68,7 @@ void nextPattern()
 }
 
 void theMine() {
-  fill_solid( leds, NUM_LEDS, CRGB::GreenYellow);
+  fill_solid( leds, NUM_LEDS, CRGB::Yellow);
   fadeLightBy( leds, NUM_LEDS, 200);
   addGlitter(100);
 }
